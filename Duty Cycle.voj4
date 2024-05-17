@@ -8,7 +8,7 @@
 ; R7 - loop upper nibble
 
 config:
-MOV R1, 2       ; page
+MOV R1, 2       ; page to display
 MOV R2, 0       ; row to draw
 MOV R3, 15      ; lower nibble of wait time
 MOV R4, 1       ; upper nibble of wait time
